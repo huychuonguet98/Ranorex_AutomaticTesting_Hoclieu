@@ -1,0 +1,202 @@
+﻿<repository
+id="5ad0731c-b83a-4a7c-89fe-900ac15b7842"
+name="AutomationTestProjectRepository"
+rxversion="8.2">
+	<codegen
+	classname="AutomationTestProjectRepository"
+	namespace="AutomationTestProject">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b1b7a2de-ea18-4bc1-a583-7397b33901d4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="824fbfaa-15d7-4bfd-9f08-6d137806f73a"
+		isrooted="True"
+		name="HọcLiệuSachMềm"
+		refpath="/dom[@domain='hoclieu.sachmem.vn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bab02dc8-19fa-4483-8623-aa4417b1c7d4"
+			name="LinkLogin"
+			refimgid="f00fc959-ab53-4f1d-bcbd-a1cc6f51a654"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//a[#'link-login']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//a[#'link-login']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="36b89ae8-b12f-4ee3-9f09-db05b4ac9686"
+			name="Lớp6"
+			refimgid="0e48bbf6-3272-4dd8-93b8-72c37c8dded3"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//a[@innertext='L&#7899;p 6']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9e581c03-ff62-4e52-9c97-1325a942d545"
+			name="TiếngAnh6Tập1SachBaiTập"
+			refimgid="e4ac42f4-2de0-4acb-a006-76edb346b214"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//a[@innertext='Ti&#7871;ng Anh 6 T&#7853;p 1 S&#225;ch b&#224;i t&#7853;p']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="spantag"
+			id="fa6a2aa5-211e-4a83-8d2d-3723af2ed193"
+			name="giaobaitap"
+			refimgid="74cee011-5d0e-4438-ae60-af39c99053d2"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//span[@innertext='Giao b&#224;i t&#7853;p']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6eced3d8-15cb-44dd-8d28-42285775221d"
+			name="Ngaygiobatdau"
+			refimgid="23185207-6d40-4969-b8c7-4e6ab23b5fbe"
+			refpath="/dom[@domain='hoclieu.sachmem.vn' and @caption='Học liệu - Sách Mềm' and @page='preview']//div[#'createAssignmentModal']/div/div/form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/div[1]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/?/?/input[@type='text']
+			</item>
+			<item
+			capname="inputtag"
+			id="d9760cb7-eae9-4a1b-b941-bd8b24491b6e"
+			name="TaoButton"
+			refimgid="f93ffbf8-0bf5-427c-849f-b13cfceae5f8"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//input[@value='T&#7841;o']
+			</item>
+			<item
+			capname="divtag"
+			id="ba18ae8f-096c-460a-905c-3facc0e845e2"
+			name="Report"
+			refimgid="57090f96-f9d7-4606-933f-5667488d32e0"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[@innertext=' Th&#7901;i gian b&#7855;t &#273;&#7847;u l&#7899;n h&#417;n th&#7901;i gian k&#7871;t th&#250;c ']
+			</item>
+			<item
+			capname="spantag"
+			id="8566fd14-a884-4812-9abe-fccb2c3a3f92"
+			name="Quit"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//span[@innertext='&#215;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6711c161-6fa1-4721-9df9-1306ab19d68d"
+			name="Hour"
+			refimgid="f1d4f888-3b7e-4da5-8809-57bb91358d67"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/div[2]/div[1]/tag[@tagname='timepicker']/table/tbody/tr[2]/td[1]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/div[2]//table/tbody/tr[2]/?/?/input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7c03fcc7-39b2-4591-95da-4816ef5ea7af"
+			name="ReporErrorForHour"
+			refimgid="2406b390-d585-427a-91d4-141d042a8af8"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/div[2]/div[@innertext='Trường này không được để trống']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b190848150cd8b9065dd1/5b99d4eaf327edcb8068f4ad/preview']/div[1]/div[10]/?/?/div[@innertext~'^Tr&#432;&#7901;ng\ n&#224;y\ kh&#244;ng\ &#273;&#432;&#7907;c\ &#273;&#7875;\ ']
+			</item>
+			<basepath>
+				/dom[@domain='hoclieu.sachmem.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="7ee862ee-d4ef-4165-b63a-15aaab7bcaad"
+		isrooted="True"
+		name="ĐăngNhậpSachMềm"
+		refpath="/dom[@domain='accounts.sachmem.vn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="webdocument"
+			id="dec70314-15a1-4bd7-988d-b92f1b7f776a"
+			isrooted="True"
+			name="Body"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="inputtag"
+				id="5c6fc1d1-6483-48c6-9ccd-4410ee2b75e8"
+				name="Email"
+				refimgid="3e2a4e33-47fb-4fb0-9109-a6764ed3ca3e"
+				searchtimeout="30000ms">
+					/dom[@domain='accounts.sachmem.vn']//input[@id='user_email']
+				</item>
+				<item
+				capname="inputtag"
+				id="1bdfdc75-8cfa-4882-83c1-acff05c14f3c"
+				name="Password"
+				refimgid="f930a155-d7f2-4963-b8cc-c7a25f8770ac"
+				searchtimeout="30000ms">
+					/dom[@domain='accounts.sachmem.vn']//input[@id='user_password']
+				</item>
+				<item
+				capname="inputtag"
+				id="1f678280-1cf1-49e7-83fa-7a19e2508110"
+				name="Commit"
+				refimgid="1d275c10-557c-4918-acfa-3b5e45a79ed0"
+				searchtimeout="30000ms">
+					/dom[@domain='accounts.sachmem.vn']//input[@name='commit']
+				</item>
+				<basepath>
+					/dom[@domain='accounts.sachmem.vn']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='accounts.sachmem.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

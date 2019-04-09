@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4b4a0a49-e6ac-4f3f-8ba2-38bba9f7201d"
+mode="Global"
+rxversion="8.2">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="AutomationTestProject.Recording">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://hoclieu.sachmem.vn
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="5ad0731c-b83a-4a7c-89fe-900ac15b7842"
+	name="AutomationTestProjectRepository"
+	relativepath="..\AutomationTestProjectRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="AutomationTestProjectRepository"
+		namespace="AutomationTestProject">
+		</codegen>
+		<rootfolder
+		id="b1b7a2de-ea18-4bc1-a583-7397b33901d4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

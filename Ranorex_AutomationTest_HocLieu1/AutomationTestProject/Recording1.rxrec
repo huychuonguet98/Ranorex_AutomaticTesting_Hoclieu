@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5b7c9c2a-7f51-473a-b080-a1d987ab671a"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="AutomationTestProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="5ad0731c-b83a-4a7c-89fe-900ac15b7842"
+	name="AutomationTestProjectRepository"
+	relativepath="AutomationTestProjectRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="AutomationTestProjectRepository"
+		namespace="AutomationTestProject">
+		</codegen>
+		<rootfolder
+		id="b1b7a2de-ea18-4bc1-a583-7397b33901d4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
